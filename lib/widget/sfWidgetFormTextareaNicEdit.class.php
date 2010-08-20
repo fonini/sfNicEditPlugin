@@ -3,8 +3,6 @@
 /**
  * sfWidgetFormTextareaNicEdit represents a NicEdit widget.
  *
- * You must include the NicEdit JavaScript file by yourself.
- *
  * @package    symfony
  * @subpackage widget
  * @author     Jonnas Fonini <contato@fonini.net>
