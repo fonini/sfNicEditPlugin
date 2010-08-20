@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.0" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfNicEditPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>Provides a WYSWYG text editor for your forms, using NicEdit</summary>
+ <description>Provides a WYSWYG text editor for your forms, using NicEdit</description>
+ <lead>
+  <name>Jonnas Fonini</name>
+  <user>Jonnas Fonini</user>
+  <email>contato@fonini.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-08-20/date>
+ <time>16:04:35</time>
+ <version>
+  <release>1.0</release>
+  <api>1.1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="7dff0a597a5a3ca5d7338639644ed89f" name="lib/widget/sfWidgetFormTextareaNicEdit.class.php" role="data"/>
+   <file md5sum="ed78eb3f47e23747cf1ad35ba2892d22" name="web/js/nicEdit.js" role="data"/>
+   <file md5sum="b1c074bfddb654c89184b4f6834d4f19" name="web/js/nicEditorIcons.gif" role="data"/>
+   <file md5sum="e32678cb0c3f4e372591db9162e4796b" name="LICENSE" role="data"/>
+   <file md5sum="a538b2e8d007a47182c132c94247e3d7" name="README" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2010-08-20</date>
+   <notes>
+Initial release.
+   </notes>
+  </release>
+ </changelog>
+</package>
