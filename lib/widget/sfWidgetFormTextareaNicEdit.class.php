@@ -3,7 +3,7 @@
 /**
  * sfWidgetFormTextareaNicEdit represents a NicEdit widget.
  *
- * @package    symfony
+ * @package    sfNicEditPlugin
  * @subpackage widget
  * @author     Jonnas Fonini <contato@fonini.net>
  */
@@ -28,6 +28,8 @@ class sfWidgetFormTextareaNicEdit extends sfWidgetFormTextarea
     $this->addOption('maxHeight');   
     $this->addOption('externalCSS');
     $this->addOption('fullPanel');
+	$this->addOption('buttonList');
+	$this->addOption('uploadURI');
   }
 
   /**
@@ -52,6 +54,7 @@ bkLib.onDomLoaded(function() {
 		%s
 		%s
         %s
+		%s
 	}).panelInstance('%s');
 });
 </script>
@@ -60,6 +63,8 @@ EOF
       $this->getOption('maxHeight') ? sprintf('	maxHeight: %,', $this->getOption('maxHeight')) : '',
       $this->getOption('externalCSS') ? sprintf('	externalCSS: "%",', $this->getOption('externalCSS')) : '',
       $this->getOption('fullPanel') ? sprintf('	fullPanel: %s,', $this->getOption('fullPanel')) : '', 
+	  $this->getOption('buttonList') ? sprintf('	buttonList: %s', json_encode($this->getOption('buttonList'))) : '',
+	  $this->getOption('uploadURI') ? sprintf('	uploadURI: "%s"', $this->getOption('uploadURI')) : '',
       $this->generateId($name)
     );
 
