@@ -55,6 +55,7 @@ bkLib.onDomLoaded(function() {
 		%s
         %s
 		%s
+		%s
 	}).panelInstance('%s');
 });
 </script>
