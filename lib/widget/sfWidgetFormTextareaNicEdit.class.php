@@ -5,7 +5,7 @@
  *
  * @package    sfNicEditPlugin
  * @subpackage widget
- * @author     Jonnas Fonini <contato@fonini.net>
+ * @author     Jonnas Fonini <jonnasfonini@gmail.com>
  */
 class sfWidgetFormTextareaNicEdit extends sfWidgetFormTextarea
 {
