@@ -44,7 +44,7 @@ Edit the form class when you'll use the widget. e.g: lib/form/doctrine/NewsForm.
 ````php
 public function configure()
 {
-$this->setWidget('text', new sfWidgetFormTextareaNicEdit(array('fullPanel' => true), array('cols' => 100, 'rows' => 20)));
+  $this->setWidget('text', new sfWidgetFormTextareaNicEdit(array('fullPanel' => true), array('cols' => 100, 'rows' => 20)));
 }
 ````
 
